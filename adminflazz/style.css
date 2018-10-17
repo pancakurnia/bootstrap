@@ -1,0 +1,152 @@
+body{
+	font-family: Tahoma;
+  text-align: center; 
+  background-image: url(images/hd.gif);
+ 
+}
+#header {
+	position: relative;
+	background-image: url(images/headerm.gif);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+	border: 2px solid #980116;
+	padding-top: 70px;
+	text-align: left;
+}
+
+#content {
+	margin-left: 250px;
+	padding: 20px 10px 0 0;
+	
+	
+}
+#content p {
+	font-size: 75%;
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+#menu {
+  position: relative;
+  float: left;
+	top: 40px;
+	left: 0;
+	width: 160px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 180px;
+	border-bottom: 1px solid #980116;
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	vertical-align: bottom; 
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #980116;
+	border-right: 1px solid #980116;
+	background-color: #EBF3F2;
+	color: #265180;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #980116;
+	color: #FFFFFF;
+}
+
+a:link,a:visited {
+  color:#265180;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {
+	font: normal 120% Georgia;
+	color: #265180;
+	background-color: transparent;
+	border-bottom: 1px dotted #265180;
+}
+table {
+	font-family: Tahoma; 
+	font-size: 10pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin: 5px 0px;
+}
+th{
+	color: #FFFFFF;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	border-collapse: collapse;
+	background-color: #F11B1B;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #969BA5;
+	border-collapse: collapse;
+}
+input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 8pt;
+}
+/*#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+/*pagination*/
+
+ul.paginati {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.paginati li {display: inline;}
+
+ul.paginati li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+ul.paginati li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+ul.paginati li a:hover:not(.active) {background-color: #ddd;}
+#info {
+	border:1px solid #E78686;padding:15px;background:#011E18;width:95%;color:#03A9F4;
+}
+
+#footer{
+	clear :both;
+	padding: 20px 0 10px 25px;
+	font-size: 70%;
+	color: #FFFFFF;
+	background-color: #980116;
+}
+

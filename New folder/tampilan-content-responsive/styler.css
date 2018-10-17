@@ -1,0 +1,165 @@
+* {margin: 0; padding: 0;}
+
+bodyr {
+	background: url(images/1.jpg);
+	color: #666;
+	width: 96%;
+	max-width: 96%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+/* Header */
+#headerr {
+	width: 930px;
+	max-width: 96%;
+	margin: auto;
+	padding: 40px 0;
+}
+#headerr h1 {
+	color: #F00;	
+}
+#headerr a {
+	color: #009;
+	text-decoration: none;	
+}
+#headerr a:hover {
+	text-decoration: underline;
+}
+
+/* Navigasi */
+#navigasir {
+	width: 930px;
+	margin: 20px auto;
+	padding: 20px 0 0 0;
+	max-width: 96%;
+}
+#navigasir ul {
+	list-style: none;
+}
+#navigasir li {
+	display: inline-block;
+}
+#navigasir a {
+	padding: 3px 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #333;	
+}
+#navigasir a:hover {
+	color: #ff4e00;
+	text-decoration: none;
+}
+#navigasir .current a {
+	background: #555;
+	color: #fff;
+	border-radius: 5px;
+}
+
+/* Tampilan Menu Responsive */
+@media screen and (max-width: 500px) {
+	#navigasir {
+		position: relative;
+		min-height: 36px;
+		margin-bottom: 10px;	
+	}
+	#navigasir ul {
+		width: 180px;
+		padding: 5px 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 1px solid #aaa;
+		background: url(images/icon-menu-72.png) no-repeat 10px 12px;
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	#navigasir li {
+		display: none; /* Hiden all item li */
+	}
+	#navigasir .current {
+		display: block; /* Munculkan class current item li*/	
+	}
+	#navigasir a {
+		display: block;
+		padding: 5px 5px 5px 48px;
+		text-align: left;
+	}
+	#navigasir .current a {
+		background: none;
+		color: #666;
+	}
+	
+	/* Munculkan Navigasi */
+	#navigasir ul:hover {
+		background-image: none;
+	}
+	#navigasir ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+}
+
+/* Style Tampilan Isi Content layar Dekstop */
+#contentr {
+	width: 930px;
+	max-width: 96%;
+	margin: auto;
+	overflow: hidden;
+	font-size: 14px;	
+}
+
+.contentr-left {
+	float: left;
+	width: 580px;
+}
+
+.contentr-right {
+	float: right;
+	width: 300px;;
+}
+
+h2, h3 {
+	margin-bottom: 10px;
+	border-bottom: 1px dotted #999;
+	padding-bottom: 5px;
+}
+
+p {
+	margin-bottom: 10px;	
+}
+
+.contentr-right .no-border {
+	border: none;	
+}
+
+footerr {
+	width: 930px;
+	max-width: 96%;
+	margin: auto;
+	text-align: center;
+	font-size: 14px;	
+}
+
+footerr a {
+	color: #00C;
+	text-decoration: none;	
+}
+
+footerr a:hover {
+	color: #900;	
+}
+
+/* Tampilan isi Content Responsive */
+@media screen and (max-width: 1024px) {
+	.contentr-left {
+		width: 98%;
+		float: none;
+		padding: 1%;
+	}
+	.contentr-right {
+		width: 98%;
+		padding: 1%;
+		float: none;	
+	}
+}
